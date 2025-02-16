@@ -3,9 +3,12 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+
 </head>
 <body>
  <h1>Javaur Gassop </h1>
  <p>I am a passionate and driven university student currently pursuing a degree in Information Technology, with a keen interest in exploring the ever-evolving world of technology. I enjoy Football, and I thrive in the field, showcasing my athleticism and teamwork skills. When I’m not immersed in my studies or playing sports, I enjoy unwinding with video games, which allow me to engage my strategic thinking and creativity. I have a deep appreciation for nature, finding peace and inspiration in its beauty, and I proudly hail from the picturesque parish of St. Mary, Jamaica, a place that has shaped my values and love for community. Balancing my academic goals, athletic pursuits, and personal interests, I strive to grow both personally and professionally while staying true to my roots..</p>
+ <img src="{{ url_for('static', filename='personal image.jpeg') }}" alt="A picture of me" width="300">
 </body>
 </html>
